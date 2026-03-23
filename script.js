@@ -29,16 +29,16 @@ function showInfo(type) {
     let content = "";
 
     if (type === "github") {
-        content = "GitHub: https://github.com/enockchisenga";
+        content = "https://github.com/enockchisenga";
     } 
     else if (type === "linkedin") {
-        content = "LinkedIn: https://linkedin.com/in/Enock_Chisenga";
+        content = "https://linkedin.com/in/Enock_Chisenga";
     } 
     else if (type === "twitter") {
-        content = "N/A";
+        content = "Chisenga@27";
     } 
     else if (type === "email") {
-        content = "Email: chisengaenockbwalya@email.com";
+        content = "chisengaenockbwalya@gmail.com";
     }
 
     infoText.innerHTML = content;
